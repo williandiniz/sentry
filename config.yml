@@ -65,7 +65,9 @@ releasefile.cache-path: "/data/releasefile-cache"
 #   secret_key: 'XXXXXXX'
 #   bucket_name: 's3-bucket-name'
 
-system.internal-url-prefix: "http://web:9000"
+#system.internal-url-prefix: "http://web:9000"
+system.internal-url-prefix: "http://sentry-sentry01.apps.na46.prod.nextcle.com/"
+
 symbolicator.enabled: true
 symbolicator.options:
   url: "http://symbolicator:3021"
